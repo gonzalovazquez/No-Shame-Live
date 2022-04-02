@@ -86,7 +86,7 @@ const Page = () => {
         </div>
 
         <div className="py-12">
-          <div className="flex flew-col md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+          <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             {shows.map((show) => (
               <div key={show.name} >
                 <img className="object-cover" src={show.image} />
@@ -100,7 +100,7 @@ const Page = () => {
             <p className="py-12 lg:text-center text-3xl font-extrabold text-gray-900 sm:text-4xl">
               The Cast
             </p>
-            <dl className=" pt-10 space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+            <dl className="pt-10 space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
               {features.map((feature) => (
                 <div key={feature.name} className="relative">
                   <dt>
@@ -116,7 +116,7 @@ const Page = () => {
         </div>
 
 
-        <div className="bg-gray-50">
+        <div className="bg-gray-50 mt-6">
           <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               <span className="block">Are you ready to laugh?</span>
