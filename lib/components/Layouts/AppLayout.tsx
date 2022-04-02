@@ -128,7 +128,7 @@ const AppLayout = (props) => {
                 </div>
               </div>
             </div>
-            <div className="relative flex-shrink-0 flex h-16 bg-white">
+            {/* <div className="relative flex-shrink-0 flex h-16 bg-white">
               <div className="flex-1 px-4 flex justify-between sm:px-6 lg:max-w-6xl lg:mx-auto lg:px-8">
                 <div className="flex flex-1 ">
                   {NAV_ITEMS.map((item) => (
@@ -150,7 +150,7 @@ const AppLayout = (props) => {
                   ))}
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <main className="flex-1 pb-8">
             <div className="bg-white ">
