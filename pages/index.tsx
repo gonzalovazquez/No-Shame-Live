@@ -10,13 +10,13 @@ const features = [
   {
     name: 'Rosemary Kim',
     description:
-      'Rosemary is currently living in New York City to persue her dream of acting. Skilled in the many languages, she brings her talent to the main screen.',
+      'Rosemary is currently living in New York City to persue her dream of acting. Skilled in the many languages, she brings her talent to the main screen. She is also a founding member of No Shame!',
     icon: 'assets/profile/RosemaryKim-profile.jpg',
   },
   {
     name: 'Todd Olson',
     description:
-      'Todd escaped soulless corporate America mid-COVID in order to pursue his dream of doing comedy on Zoom.  He is a Second City Conservatory performer / student and a founding member of No Shame. ',
+      'Todd escaped soulless corporate America mid-COVID in order to pursue his dream of doing comedy on Zoom.  He is a Second City Conservatory performer / student and a founding member of No Shame.',
     icon: 'assets/profile/ToddOlson-profile.jpg',
   },
   {
@@ -34,7 +34,7 @@ const features = [
   {
     name: 'Quinn Hemmons',
     description:
-      'You can find me at Instagram and Twitter @qhemmons.',
+      'Quinn is lifelong lover of comedy. He dabbled with acting in college and spent a few years performing stand-up comedy before landing in the improv track at Second City. He is also a founding member of No Shame!',
     icon: 'assets/profile/Quinn-profile.jpg',
   },
   {
